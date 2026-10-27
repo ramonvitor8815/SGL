@@ -5,7 +5,7 @@ namespace SGL
     public static class Conexao
     {
         private const string StringConexao =
-            "Server=localhost;Port=3306;Database=projeto_logistica;Uid=root;Pwd=SUA_SENHA;";
+            "Server=localhost;Port=3306;Database=projeto_logistica;Uid=root;Pwd=password;";
 
         public static MySqlConnection Criar()
         {
